@@ -1,0 +1,261 @@
+#fejlec {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  height: 100px;
+  background: #222;
+  width: 830px;
+}
+
+button {
+  background: #222;
+  font-family: 'Poller One', cursive;
+  font-size: 17pt;
+  margin: 20px;
+  border: none;
+}
+
+#Bio {
+  color: Red;
+}
+  
+#Achi {
+   color: White}
+
+#XP {
+   color: White}
+
+#Training {
+   color: Blue
+}
+flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+body {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.crop {
+  width: 350px;
+  height: 500px;
+}
+
+.crop img {
+  width: 350px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.page-header {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.page-header .hi {
+  color: #222;
+  margin: 0;
+  font-size: 27pt;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.page-header .anakin {
+  color: #222;
+  margin: 0;
+  font-size: 52pt;
+  font-family: 'Abril Fatface', cursive;
+  line-height: 100%;
+}
+
+.header-text {
+  position: absolute;
+  top: 250px;
+  left: 525px;
+}
+
+.main {
+  width: 500px;
+  margin-top: 10px;
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+ul {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 10px;
+  color: black;
+  margin-bottom: 50px;
+  width: 417px;
+}
+
+li {
+  margin: 10px;
+}
+
+.grey-box {
+  display: block;
+  background: grey;
+  height: 350px;
+  width: 350px;
+}
+
+.idezo::before {
+  content: '”';
+  color: white;
+  font-size: 120px;
+  font-family: 'Abril Fatface', cursive;
+  position: relative;
+  top: -30px;
+}
+
+.together {
+  color: white;
+  font-size: 33pt;
+  margin: 0;
+  margin-right: 800px;
+  margin-left: 25px;
+  position: relative;
+  top: -110px;
+  font-family: 'Abril Fatface', cursive;
+  width: 200px;
+}
+
+.bekezdes {
+  display: block;
+  width: 500px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 20px;
+  color: black;
+  width: 430px;
+  line-height: 150%;
+}
+
+.bekezdes .egy {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  color: black;
+  width: 365px;
+}
+
+.bekezdes .ketto {
+    font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 25px;
+  color: black;
+  line-height: 150%;
+  width: 365px;
+}
+
+.bekezdes .harom {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 30px;
+  color: black;
+  width: 450px;
+  line-height: 150%
+}
+
+.faith {
+  color: white;
+  font-size: 33pt;
+  margin: 0;
+  margin-right: 800px;
+  margin-left: 25px;
+  position: relative;
+  top: -110px;
+  font-family: 'Abril Fatface', cursive;
+  width: 230px;
+}
+
+.grey-box2 {
+  display: block;
+  background: grey;
+  height: 350px;
+  width: 350px;
+}
+
+#before-grey {
+  margin-bottom: 40px;
+}  
+
+.jobb {
+  display: block;
+}
+
+.negy {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  color: black;
+  width: 365px;
+}
+
+.ot {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 0;
+  color: black;
+  width: 365px;
+}
+
+.alatta {
+  margin-top: 10px;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 15px;
+  margin-left: 33px;
+}
+
+.grey-box3 {
+  display: block;
+  background: grey;
+  height: 630px;
+  width: 350px;
+}
+
+.master {
+  color: white;
+  font-size: 33pt;
+  margin: 0;
+  margin-right: 800px;
+  margin-left: 25px;
+  position: relative;
+  top: -110px;
+  font-family: 'Abril Fatface', cursive;
+  width: 200px;
+}
+
+.vonal {
+  background: black;
+  height: 3px;
+  width: 100%;
+}
+
+.hat {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  color: black;
+  width: 650px;
+  line-height: 1px;
+}
+
+.lablec {
+  height: 50px;
+}
