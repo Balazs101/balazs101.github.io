@@ -2,22 +2,22 @@ body {
     width: 10%;
 }
 
-.container {
+#b325, .b326{
     font-weight: bold;
+    border: 1px solid green;
 }
 
-.b326 {
+/*.b326 {
     border: 1px solid green;
 }
 
 #b325 {
     border: 1px solid green;
-}
+}*/
 p {
-    color: blue;
     background-color: yellow;
 }
-.b329{
+.big{
     color: blue;
     font-weight: bold;
 }
