@@ -1,0 +1,183 @@
+body {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img {
+  width: 1000px;
+  margin-bottom: 40px;
+}
+
+.page-header {
+  font-family: 'Abril Fatface', cursive;
+}
+
+.page-header .hi {
+  color: #222 grey;
+  margin: 0;
+  font-size: 27px;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.page-header .anakin {
+  color: #222 grey;
+  margin: 0;
+  font-size: 40pt;
+  font-family: 'Abril Fatface', cursive;
+}
+
+.header-text {
+  position: absolute;
+  top: 180px;
+  left: 700px;
+}
+
+main {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grey-box {
+  background: grey;
+  height: 150px;
+  width: 90%;
+}
+
+.idezo::before {
+  content: '”';
+  color: white;
+  font-size: 110px;
+  font-family: 'Abril Fatface', cursive;
+  position: relative;
+  top: -30px;
+}
+
+.galaxy {
+  color: white;
+  font-size: 33pt;
+  margin: 0;
+  margin-left: 25px;
+  position: relative;
+  top: -105px;
+  text-align: center;
+  font-family: 'Abril Fatface', cursive;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 30px;
+  color: black;
+  width: 650px;
+  line-height: 150%;
+
+}
+
+ul {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 30px;
+  color: black;
+  margin-bottom: 50px;
+}
+
+li {
+  margin: 10px;
+}
+.bekezdes .egy {
+    font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  color: black;
+  width: 650px;
+}
+.bekezdes .ketto {
+    font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-bottom: 25px;
+  color: black;
+  line-height: 150%;
+  width: 650px;
+
+}
+
+.bekezdes .harom {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  color: black;
+  width: 650px;
+  line-height: 150%
+}
+.galaxy2 {
+  color: white;
+  font-size: 33pt;
+  margin: 0;
+  margin-left: 25px;
+  position: relative;
+  top: -115px;
+  text-align: left;
+  font-family: 'Abril Fatface', cursive;
+}
+.grey-box2 {
+  background: grey;
+  height: 200px;
+  width: 90%;
+  margin-bottom: 0;
+}
+#before-grey {
+  margin-bottom: 40px;
+}  
+
+.bekezdes .negy {
+    font-family: 'Josefin Sans', sans-serif;
+  margin-top: 0;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  color: black;
+  width: 650px;
+}
+
+.bekezdes .ot {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 0;
+  color: black;
+  width: 650px;
+  line-height: 1px;
+}
+
+.alatta {
+  margin-top: 10px;
+  font-family: 'Merriweather', serif;
+  font-style: italic;
+  font-size: 15px
+}
+.grey-box3 {
+  background: grey;
+  height: 200px;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.vonal {
+  background: black;
+  height: 3px;
+  width: 100%;
+}
+.bekezdes .hat {
+  font-family: 'Josefin Sans', sans-serif;
+  margin-top: 50px;
+  margin-left: 30px;
+  margin-bottom: 50px;
+  color: black;
+  width: 650px;
+  line-height: 1px;
+}
+.lablec {
+  height: 50px;
+}
