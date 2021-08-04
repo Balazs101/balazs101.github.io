@@ -1,0 +1,15 @@
+.container {
+    border: 2px solid;
+    width: 20%;
+    margin-top: 0;
+    padding: 0;
+}
+
+p {
+    border-bottom: 2px solid;
+
+}
+
+p:hover {
+    background: orange;
+}
