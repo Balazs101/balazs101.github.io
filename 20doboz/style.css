@@ -1,0 +1,45 @@
+.container {
+    width: 600px;
+
+}
+
+.first {
+    border: blue solid 2px;
+    padding: 15px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.bluebox {
+
+    width: 40px;
+    height: 40px;
+    background: blue;
+    position: relative;
+    top: 5px;
+
+}
+
+.second {
+    
+    border: blue solid 2px;
+    background: orangered;
+    padding: 15px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.purplebox {
+
+    width: 40px;
+    height: 40px;
+    background: purple;
+    position: relative;
+    top: 5px;
+
+}
