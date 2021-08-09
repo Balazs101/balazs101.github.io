@@ -1,0 +1,22 @@
+main {
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+h1 {
+  color: Chocolate
+}
+h2 {
+  color: DarkOrchid
+}
+p {
+  width: 450px;
+}
+div {
+  color: magenta;
+  text-decoration: underline;
+
+}
+.underline {
+  text-decoration: underline
+}
