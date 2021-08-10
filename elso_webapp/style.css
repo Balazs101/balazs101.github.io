@@ -20,6 +20,20 @@ img {
 
 /**/
 
-.gray-container {
-    
+
+#keret {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: grey;
+    height: 1000px;
+    width: 1000px;
+}
+
+.kep {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
 }

@@ -55,5 +55,25 @@ let loadPhoto = (photoNumber) => {
     }
     loadPhoto(currentPhoto);
   });
-  console.log("A java eddig betolt")
-  //$('#photo').attr('src', car.photo);
+ 
+
+//.attr megjelníti, .append nem.
+    imagesData.forEach(() => {
+      $('#thumbnail').attr('src', imagesData[currentPhoto].photo
+      )})
+
+  //$('#thumbnail').attr('src', car.photo);
+   
+  /* imagesData.forEach(() => {
+    $('#thumbnail').append('src', imagesData[loadPhoto].photo)})*/
+
+  
+
+ /* imagesData.forEach((currentPhoto, loadPhoto) => {
+    $('#keret').append(`<div class="kep" currentPhoto="${currentPhoto}">${loadPhoto}</div>`);
+    $('.kep').click((event) => {
+      let preloadPhoto = $(event.target).attr(currentPhoto);
+      let numberIndex = parseInt(preloadPhoto);
+    })*/
+
+    console.log("A java eddig betolt")
