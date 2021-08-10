@@ -2,19 +2,26 @@ console.log("A java script is betoltott")
 
 let names = ['Balazs', 'Peti', 'Laci', 'Feri']
 
-function NevLista(nev) {
-$('.nevek').append('<ul class="lista"></ul>')
-$('.nevek ')
-}
 
+  names.forEach((nev) => {
+    $('body').append(
+    "<ul><li>" + nev + "</li></ul>"
+    )})
 
-names.forEach(element => {
     
-});
+
+
+
 
 let additionalBlock = {
-    title: "Beillesztve JavaScripttel",
-    text: "Ez a blokk a JavaScript jQuery könyvtárával lett beillesztve. Király!"
-  };
+  title: "Beillesztve JavaScripttel",
+  text: "Ez a blokk a JavaScript jQuery könyvtárával lett beillesztve. Király!"
+};
 
-  $("main").append(<p>`additionalblock`, `text`</p>)
+$('body').append(
+  "<h1>" + additionalBlock.text + "<h1/>"
+)
+
+$('body').append(
+  "<p>" + additionalBlock.title + "<p/>"
+)

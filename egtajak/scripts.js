@@ -20,6 +20,6 @@ if (word === 'cool') {
 $('.green').text("A DOM Ereje")
 }
 
-else if (word !== 'cool') {
+else if {
 $('.green').text('.blue')
 }

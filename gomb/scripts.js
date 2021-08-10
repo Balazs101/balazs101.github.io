@@ -2,13 +2,12 @@ document.getElementById('btn').addEventListener("click", function() {
     console.log("Igen, most rámkattintottál");
   });
 
-$('btn2').click(() => {
-$('btn')setText("MÁSODIK GOMB")
-}
 
-  /*<button id='btn' type='button'>GOMB</button>
-$("#btn").html('második gomb'); */
+$('#btn').click(() => {
+  $('#btn2').text('GOMB');
+});
 
-$('btn3').click(() => {
-    $('btn3').css("background", "blue")
+
+$('#btn3').click(() => {
+    $('#btn3').css("background", "blue")
 })
