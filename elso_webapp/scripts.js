@@ -37,8 +37,23 @@ let car = {
 let currentPhoto = 0;
 let imagesData = [car, depot, house, sea, stone, street]
 
-$('#photo').attr('src', imagesData[currentPhoto].photo);
+let loadPhoto = (photoNumber) => {
+    $('#photo').attr('src', imagesData[photoNumber].photo);
+  }
+  loadPhoto(currentPhoto);
 
+  $('#nyil1').click(() => {
+    if(currentPhoto > 0) {
+        currentPhoto--;
+    }
+    loadPhoto(currentPhoto);
+  });
 
-
+  $('#nyil2').click(() => {
+    if(currentPhoto < 6) {
+        currentPhoto++;
+    }
+    loadPhoto(currentPhoto);
+  });
+  console.log("A java eddig betolt")
   //$('#photo').attr('src', car.photo);
