@@ -1,0 +1,25 @@
+.kepek {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+.nyilak {
+    height: 20%;
+    width: 3%;
+}
+#nyil2 {
+    transform: rotate(180deg);
+}
+
+/**/
+
+.gray-container {
+    
+}
