@@ -35,10 +35,10 @@ let car = {
   }; 
 
 let currentPhoto = 0;
-let imagesData = []
+let imagesData = [car, depot, house, sea, stone, street]
+
+$('#photo').attr('src', imagesData[currentPhoto].photo);
 
 
 
-
-
-  $('#photo').attr('src', car.photo);
+  //$('#photo').attr('src', car.photo);
