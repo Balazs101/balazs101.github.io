@@ -56,24 +56,19 @@ let loadPhoto = (photoNumber) => {
     loadPhoto(currentPhoto);
   });
  
+  imagesData.forEach((item, index) => { 
 
-//.attr megjelníti, .append nem.
-    imagesData.forEach(() => {
-      $('#thumbnail').attr('src', imagesData[currentPhoto].photo
-      )})
+    /*$('#keret').append('<div class="thumbnail" data-number="${index}"><img src="${item.photo}" data-number="${index}" alt=""> </div>');*/
+    $('#keret').append('<div class="thumbnail" data-number="'+index+'"> <img src="'+item.photo+'" data-number="'+index+'" alt=""> </div>'); 
 
-  //$('#thumbnail').attr('src', car.photo);
-   
-  /* imagesData.forEach(() => {
-    $('#thumbnail').append('src', imagesData[loadPhoto].photo)})*/
+    $('.thumbnail').click((event) => { 
+    
+      let ind = parseInt($(event.target).attr('data-number')); 
+      
+      loadPhoto(ind); 
+      
+       }); 
+    
 
-  
-
- /* imagesData.forEach((currentPhoto, loadPhoto) => {
-    $('#keret').append(`<div class="kep" currentPhoto="${currentPhoto}">${loadPhoto}</div>`);
-    $('.kep').click((event) => {
-      let preloadPhoto = $(event.target).attr(currentPhoto);
-      let numberIndex = parseInt(preloadPhoto);
-    })*/
-
-    console.log("A java eddig betolt")
+    }); 
+    console.log("A java eddig betolt");
