@@ -1,74 +1,94 @@
 let car = {
     photo: './images/car.jpg',
-    title: 'KEP NEVE',
-    description: 'KEP LEIRASA'
+    title: 'Auto',
+    description: 'Sárga Fiat, Bari utcáin (Dél-Olaszország)'
   };
 
   let depot = {
     photo: './images/depot.jpg',
-    title: 'KEP NEVE',
-    description: 'KEP LEIRASA'
+    title: 'Kikötő',
+    description: 'Bari városi kikötője (Dél-Olaszország)'
   };
 
   let house = {
     photo: './images/house.jpg',
-    title: 'KEP NEVE',
-    description: 'KEP LEIRASA'
+    title: 'Ház',
+    description: 'Belvárosi tömbház (Dél-Olaszország)'
   };
 
   let sea = {
     photo: './images/sea.jpg',
-    title: 'KEP NEVE',
-    description: 'KEP LEIRASA'
+    title: 'Tenger',
+    description: 'Az Adriai-tengerpart (Dél-Olaszország)'
   };
 
   let stone = {
     photo: './images/stone.jpg',
-    title: 'KEP NEVE',
-    description: 'KEP LEIRASA'
+    title: 'Kövesút',
+    description: 'Skanzen (Dél-Olaszország)'
   };
 
   let street = {
-    photo: './images/street.jpg',
-    title: 'KEP NEVE',
-    description: 'KEP LEIRASA'
+    photo: "./images/street.jpg",
+    title: 'Utca',
+    description: 'Tipikus utcakép (Dél-Olaszország)'
   }; 
 
 let currentPhoto = 0;
-let imagesData = [car, depot, house, sea, stone, street]
+let imagesData = [car, house, depot, sea, stone, street]
 
 let loadPhoto = (photoNumber) => {
     $('#photo').attr('src', imagesData[photoNumber].photo);
   }
   loadPhoto(currentPhoto);
 
-  $('#nyil1').click(() => {
+let loadTitle = (photoTitle) => {
+    $('h1').text(imagesData[photoTitle].title);
+  }
+  loadTitle(currentPhoto);
+  
+let loadDescription = (photoDescription) => {
+    $('p').text(imagesData[photoDescription].description);
+  }
+  loadDescription(currentPhoto);
+
+  $('.gomb1').click(() => {
     if(currentPhoto > 0) {
         currentPhoto--;
     }
     loadPhoto(currentPhoto);
+    loadTitle(currentPhoto);
+    loadDescription(currentPhoto);
   });
 
-  $('#nyil2').click(() => {
+  $('.gomb2').click(() => {
     if(currentPhoto < 6) {
         currentPhoto++;
     }
     loadPhoto(currentPhoto);
+    loadTitle(currentPhoto);
+    loadDescription(currentPhoto);
   });
  
   imagesData.forEach((item, index) => { 
 
-    /*$('#keret').append('<div class="thumbnail" data-number="${index}"><img src="${item.photo}" data-number="${index}" alt=""> </div>');*/
-    $('#keret').append('<div class="thumbnail" data-number="'+index+'"> <img src="'+item.photo+'" data-number="'+index+'" alt=""> </div>'); 
+    
+    $('#keret').append('<div class="thumbnail" data-number="'+index+'"> <img src="'+item.photo+'" data-number="'+index+'" title="'+item.title+'" alt=""> </div>');
+
 
     $('.thumbnail').click((event) => { 
     
       let ind = parseInt($(event.target).attr('data-number')); 
       
-      loadPhoto(ind); 
+      loadPhoto(ind);
+       
       
        }); 
     
 
     }); 
+
+
+
+
     console.log("A java eddig betolt");
