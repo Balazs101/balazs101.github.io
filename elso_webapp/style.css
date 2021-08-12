@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: auto;
     background: radial-gradient(#ffffff, #998a77);
     font-family: 'Italiana', serif;
