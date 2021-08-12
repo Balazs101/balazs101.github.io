@@ -73,20 +73,26 @@ let loadDescription = (photoDescription) => {
   imagesData.forEach((item, index) => { 
 
     
-    $('#keret').append('<div class="thumbnail" data-number="'+index+'"> <img src="'+item.photo+'" data-number="'+index+'" title="'+item.title+'" alt=""> </div>');
+    $('#keret').append('<div class="thumbnail" data-number="'+index+'"><div class="hover"> '+item.title+' </div><img src="'+item.photo+'" data-number="'+index+'" title="'+item.title+'" alt=""> </div>');
 
 
     $('.thumbnail').click((event) => { 
     
       let ind = parseInt($(event.target).attr('data-number')); 
       
-      loadPhoto(ind);
+      loadPhoto(ind);    
+      loadTitle(ind);
+      loadDescription(ind);
        
       
        }); 
     
 
     }); 
+    let loadLittleTitle = (photoLittleTitle) => {
+    $('.item').text(imagesData[photoLittleTitle].title);
+  }
+  loadLittleTitle(currentPhoto);
 
 
 

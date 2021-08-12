@@ -63,8 +63,8 @@ body {
 
 }
 img {
-    width: 80px;
-    height: 105px;
+    height: 109px;
+
 
 
 }
@@ -84,8 +84,10 @@ img {
 }
 
 
-.thumbnail {
+.mail {
     margin: 2px;
+    height: 20px;
+
 }
 /**/
 
@@ -97,18 +99,21 @@ img {
     margin-left: auto;
     margin-right: auto;
     justify-content: center;
+    position: relative;
 }
 
 .kep {
     width: 384px;
     height: 512px;
     
+    
 }
 
 #picture {
     width: 30%;
-    position: static;
     height: 585px;
+    vertical-align: middle;
+    
 }
 
 .thumbnail {
@@ -116,19 +121,35 @@ img {
     border-radius: 6px;
     margin: 4px;
     box-shadow: 0 5px 5px 0 grey;
+    height: 109px;
 }
 
-/*
-.title {
-    display: none;
+
+/*.title {
     position: relative;
     background: grey;
     color: white;
     border-radius: 5px;
     padding: 5px;
-    top: -50px;
-  }
-  
-.thumbnail:hover .title {
-    display: block;
+    width: 50px;
+    top: -20px;
+    left: 45px;
   } */
+  
+.thumbnail:hover {
+    display: block;
+    border: 5px solid rgb(255, 0, 0);
+  } 
+
+  .hover {
+    position: absolute;
+      top: -20px;
+      display:  ;
+      background: grey;
+      color: white;
+      border-radius: 5px;
+      padding: 5px;
+      top: -30px;
+      left: 45px;
+  }
+
