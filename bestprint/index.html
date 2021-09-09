@@ -8,7 +8,32 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="scripts.js"></script>
+    <header>
+        <img src="./images/stock1.jpg" class="banner">
+        <a href="#" class="logo">Bestprint.</a>
+        <div class="toggle"></div>
+        <nav>
+            <ul>
+                <li><a href="#">Kezdőlap</a></li>
+                <li><a href="#">Szolgáltatás</a></li>
+                <li><a href="#">Készülékek</a></li>
+                <li><a href="#">Szervíz</a></li>
+                <li><a href="#">Kapcsolat</a></li>
+                <li><a href="#">Webshop</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Eladás, bérlet, üzemeltetés</h2>
+        <p>Az Ön mûszaki környezetében a határidõk szorosak, a minõségi követelmények pedig egyre magasabbak. Fontos annak biztosítása, hogy az Ön üzlete a dokumentumkezelés frontvonalában maradhasson. Ezek az analóg és digitális, széles formátumú nyomtatók és másolók nagy sebességgel, professzionális minõséggel, kompakt kialakítással és egyszerû használattal büszkélkedhetnek. Az ön munkacsoportjának, tervezõirodájának vagy másolószalonjának konkrét nyomtatási, másolási igényeinek megfelelõen kialakított gépek igen hatékony, kiváló minõségû, ugyanakkor költséghatékony széles formátumú nyomatokat kínálnak. A mindenki számára elérhetõ üzemeltetésnek, a kompakt kialakításnak, valamint a számos idõ- és munkamegtakarítási funkciónak köszönhetõen az ideális széles formátumú készülék az Ön irodája részévé válík.</p>
+    </section>
+
+    <script>
+        window.addEventListener("scroll",function(){
+            const header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+    </script>
 </body>
 </html>
